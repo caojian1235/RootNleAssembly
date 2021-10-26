@@ -1,0 +1,6 @@
+framework module RootNleAssembly {
+  umbrella header "RootNleAssembly-umbrella.h"
+
+  export *
+  module * { export * }
+}

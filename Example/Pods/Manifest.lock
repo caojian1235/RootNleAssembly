@@ -1,0 +1,16 @@
+PODS:
+  - RootNleAssembly (0.1.0)
+
+DEPENDENCIES:
+  - RootNleAssembly (from `../`)
+
+EXTERNAL SOURCES:
+  RootNleAssembly:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RootNleAssembly: e067894ecb74e977a6fc02c70acf4f14e05dce50
+
+PODFILE CHECKSUM: b9bcd4cf0f3f2933599c1566c27f581133a362c8
+
+COCOAPODS: 1.11.2

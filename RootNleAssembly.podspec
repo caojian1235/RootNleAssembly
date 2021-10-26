@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RootNleAssembly'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RootNleAssembly.'
+  s.summary          = '基本组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -31,7 +31,14 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'RootNleAssembly/Classes/**/*'
+  s.prefix_header_contents = <<-EOS
+  #ifdef __OBJC__
   
+  #import "YSKDefineMacro.pch"
+  
+  
+  #endif /* __OBJC__*/
+  EOS
   # s.resource_bundles = {
   #   'RootNleAssembly' => ['RootNleAssembly/Assets/*.png']
   # }

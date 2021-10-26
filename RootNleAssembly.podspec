@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RootNleAssembly'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = '基本组件'
 
 # This description is used to generate tags and improve search results.
@@ -30,37 +30,61 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
   
+  
+  
+  #基本组件
+  s.subspec 'BaseVC' do |bvc|
+      
+      bvc.source_files = 'RootNleAssembly/Classes/BaseVC/**/*'
+      bvc.dependency 'GKNavigationBar'
+      bvc.dependency 'LYEmptyView'
+      bvc.dependency 'Masonry'
+      bvc.dependency 'MJRefresh'
+      bvc.dependency 'RootNleAssembly/Loading'
+      bvc.dependency 'RootNleAssembly/Alert'
+      bvc.dependency 'RootNleAssembly/Macro'
+      bvc.dependency 'RootNleAssembly/Category'
+   end
+  #Loading
+  s.subspec 'Loading' do |loading|
+      
+      loading.source_files = 'RootNleAssembly/Classes/Loading/**/*'
+      loading.dependency 'Masonry'
+      loading.dependency 'YYKit'
+      loading.dependency 'MBProgressHUD'
+      loading.dependency 'RootNleAssembly/Category'
+   end
+  #宏
   s.subspec 'Macro' do |ma|
+      
       ma.source_files = 'RootNleAssembly/Classes/Macro/**/*'
      
    end
   
   s.subspec 'ZZJsonToModel' do |zz|
+      
       zz.source_files = 'RootNleAssembly/Classes/ZZJsonToModel/**/*'
      
    end
-  
+  #alert
   s.subspec 'Alert' do |alert|
       alert.source_files = 'RootNleAssembly/Classes/Alert/**/*'
       alert.dependency 'RootNleAssembly/Category'
       alert.dependency 'RootNleAssembly/Macro'
-      alert.dependency 'GKNavigationBar'
-      alert.dependency 'MJRefresh'
-      alert.dependency 'LYEmptyView'
       alert.dependency 'Masonry'
-      alert.dependency 'SDWebImage'
-      alert.dependency 'MBProgressHUD'
-      alert.dependency 'YYKit'
+    
+      
    end
+  #分类
   s.subspec 'Category' do |ca|
       ca.source_files = 'RootNleAssembly/Classes/Category/**/*'
       ca.dependency 'RootNleAssembly/Macro'
-      ca.dependency 'GKNavigationBar'
+
       ca.dependency 'MJRefresh'
-      ca.dependency 'LYEmptyView'
+
       ca.dependency 'Masonry'
-      ca.dependency 'SDWebImage'
-      ca.dependency 'MBProgressHUD'
+#      ca.dependency 'SDWebImage'
+
       ca.dependency 'YYKit'
    end
 #  s.source_files = 'RootNleAssembly/Classes/YSKDefineMacro.pch'

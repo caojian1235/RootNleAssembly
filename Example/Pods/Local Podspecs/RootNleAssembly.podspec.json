@@ -1,6 +1,6 @@
 {
   "name": "RootNleAssembly",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "summary": "基本组件",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/caojian1235/RootNleAssembly",
@@ -13,12 +13,60 @@
   },
   "source": {
     "git": "https://github.com/caojian1235/RootNleAssembly.git",
-    "tag": "0.1.8"
+    "tag": "0.1.9"
   },
   "platforms": {
     "ios": "9.0"
   },
   "subspecs": [
+    {
+      "name": "BaseVC",
+      "source_files": "RootNleAssembly/Classes/BaseVC/**/*",
+      "dependencies": {
+        "GKNavigationBar": [
+
+        ],
+        "LYEmptyView": [
+
+        ],
+        "Masonry": [
+
+        ],
+        "MJRefresh": [
+
+        ],
+        "RootNleAssembly/Loading": [
+
+        ],
+        "RootNleAssembly/Alert": [
+
+        ],
+        "RootNleAssembly/Macro": [
+
+        ],
+        "RootNleAssembly/Category": [
+
+        ]
+      }
+    },
+    {
+      "name": "Loading",
+      "source_files": "RootNleAssembly/Classes/Loading/**/*",
+      "dependencies": {
+        "Masonry": [
+
+        ],
+        "YYKit": [
+
+        ],
+        "MBProgressHUD": [
+
+        ],
+        "RootNleAssembly/Category": [
+
+        ]
+      }
+    },
     {
       "name": "Macro",
       "source_files": "RootNleAssembly/Classes/Macro/**/*"
@@ -37,25 +85,7 @@
         "RootNleAssembly/Macro": [
 
         ],
-        "GKNavigationBar": [
-
-        ],
-        "MJRefresh": [
-
-        ],
-        "LYEmptyView": [
-
-        ],
         "Masonry": [
-
-        ],
-        "SDWebImage": [
-
-        ],
-        "MBProgressHUD": [
-
-        ],
-        "YYKit": [
 
         ]
       }
@@ -67,22 +97,10 @@
         "RootNleAssembly/Macro": [
 
         ],
-        "GKNavigationBar": [
-
-        ],
         "MJRefresh": [
 
         ],
-        "LYEmptyView": [
-
-        ],
         "Masonry": [
-
-        ],
-        "SDWebImage": [
-
-        ],
-        "MBProgressHUD": [
 
         ],
         "YYKit": [

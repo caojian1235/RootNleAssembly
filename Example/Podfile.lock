@@ -8,35 +8,38 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.7.2)
-  - RootNleAssembly (0.1.8):
-    - RootNleAssembly/Alert (= 0.1.8)
-    - RootNleAssembly/Category (= 0.1.8)
-    - RootNleAssembly/Macro (= 0.1.8)
-    - RootNleAssembly/ZZJsonToModel (= 0.1.8)
-  - RootNleAssembly/Alert (0.1.8):
-    - GKNavigationBar
-    - LYEmptyView
+  - RootNleAssembly (0.1.9):
+    - RootNleAssembly/Alert (= 0.1.9)
+    - RootNleAssembly/BaseVC (= 0.1.9)
+    - RootNleAssembly/Category (= 0.1.9)
+    - RootNleAssembly/Loading (= 0.1.9)
+    - RootNleAssembly/Macro (= 0.1.9)
+    - RootNleAssembly/ZZJsonToModel (= 0.1.9)
+  - RootNleAssembly/Alert (0.1.9):
     - Masonry
-    - MBProgressHUD
-    - MJRefresh
     - RootNleAssembly/Category
     - RootNleAssembly/Macro
-    - SDWebImage
-    - YYKit
-  - RootNleAssembly/Category (0.1.8):
+  - RootNleAssembly/BaseVC (0.1.9):
     - GKNavigationBar
     - LYEmptyView
     - Masonry
-    - MBProgressHUD
+    - MJRefresh
+    - RootNleAssembly/Alert
+    - RootNleAssembly/Category
+    - RootNleAssembly/Loading
+    - RootNleAssembly/Macro
+  - RootNleAssembly/Category (0.1.9):
+    - Masonry
     - MJRefresh
     - RootNleAssembly/Macro
-    - SDWebImage
     - YYKit
-  - RootNleAssembly/Macro (0.1.8)
-  - RootNleAssembly/ZZJsonToModel (0.1.8)
-  - SDWebImage (5.12.1):
-    - SDWebImage/Core (= 5.12.1)
-  - SDWebImage/Core (5.12.1)
+  - RootNleAssembly/Loading (0.1.9):
+    - Masonry
+    - MBProgressHUD
+    - RootNleAssembly/Category
+    - YYKit
+  - RootNleAssembly/Macro (0.1.9)
+  - RootNleAssembly/ZZJsonToModel (0.1.9)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -51,7 +54,6 @@ SPEC REPOS:
     - Masonry
     - MBProgressHUD
     - MJRefresh
-    - SDWebImage
     - YYKit
 
 EXTERNAL SOURCES:
@@ -64,8 +66,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
-  RootNleAssembly: 009d4bc281e54acb0760a94d62ac632d09e4e597
-  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  RootNleAssembly: a9d75a63ea9effd5c038deb4a500806ac1a92550
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
 PODFILE CHECKSUM: b9bcd4cf0f3f2933599c1566c27f581133a362c8

@@ -18,7 +18,6 @@
   "platforms": {
     "ios": "9.0"
   },
-  "prefix_header_contents": "#ifdef __OBJC__\n\n#import \"YSKDefineMacro.pch\"\n\n\n#endif /* __OBJC__*/",
   "dependencies": {
     "GKNavigationBar": [
 
@@ -44,8 +43,17 @@
   },
   "subspecs": [
     {
+      "name": "Macro",
+      "source_files": "RootNleAssembly/Classes/Macro/**/*"
+    },
+    {
       "name": "ZZJsonToModel",
-      "source_files": "RootNleAssembly/Classes/ZZJsonToModel/**/*"
+      "source_files": "RootNleAssembly/Classes/ZZJsonToModel/**/*",
+      "dependencies": {
+        "RootNleAssembly/Macro": [
+
+        ]
+      }
     }
   ]
 }

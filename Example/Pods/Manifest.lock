@@ -14,7 +14,16 @@ PODS:
     - Masonry
     - MBProgressHUD
     - MJRefresh
+    - RootNleAssembly/Macro (= 0.1.3)
     - RootNleAssembly/ZZJsonToModel (= 0.1.3)
+    - SDWebImage
+    - YYKit
+  - RootNleAssembly/Macro (0.1.3):
+    - GKNavigationBar
+    - LYEmptyView
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
     - SDWebImage
     - YYKit
   - RootNleAssembly/ZZJsonToModel (0.1.3):
@@ -23,6 +32,7 @@ PODS:
     - Masonry
     - MBProgressHUD
     - MJRefresh
+    - RootNleAssembly/Macro
     - SDWebImage
     - YYKit
   - SDWebImage (5.12.1):
@@ -55,7 +65,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
-  RootNleAssembly: c52dfd9a8f42ea7dbabd325adb13737bc42eed10
+  RootNleAssembly: 5bf75617b6f8d6683e3d172090e9ad5c042d7a2e
   SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 

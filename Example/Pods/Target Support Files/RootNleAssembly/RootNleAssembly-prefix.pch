@@ -10,9 +10,3 @@
 #endif
 #endif
 
-#ifdef __OBJC__
-
-#import "YSKDefineMacro.pch"
-
-
-#endif /* __OBJC__*/

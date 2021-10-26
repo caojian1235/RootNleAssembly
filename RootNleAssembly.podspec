@@ -31,23 +31,17 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
 
-  s.subspec 'ZZJsonToModel' do |zzjsonToModel|
-     zzjsonToModel.source_files = 'RootNleAssembly/Classes/ZZJsonToModel/**/*'
+  s.subspec 'Macro' do |ma|
+      ma.source_files = 'RootNleAssembly/Classes/Macro/**/*'
      
    end
-#  s.source_files = 'RootNleAssembly/Classes/**/*'
+  s.subspec 'ZZJsonToModel' do |zz|
+      zz.source_files = 'RootNleAssembly/Classes/ZZJsonToModel/**/*'
+      zz.dependency 'RootNleAssembly/Macro'
+   end
+#  s.source_files = 'RootNleAssembly/Classes/YSKDefineMacro.pch'
  
-  s.prefix_header_contents = <<-EOS
-  #ifdef __OBJC__
-  
-  #import "YSKDefineMacro.pch"
-  
-  
-  #endif /* __OBJC__*/
-  EOS
-  # s.resource_bundles = {
-  #   'RootNleAssembly' => ['RootNleAssembly/Assets/*.png']
-  # }
+ 
   s.dependency 'GKNavigationBar'
   s.dependency 'MJRefresh'
   s.dependency 'LYEmptyView'

@@ -9,7 +9,7 @@
 #import "UIView+TrackPoint.h"
 #import <objc/runtime.h>
 #import "YSKDefineMacro.pch"
-#import <Masonry/Masonry.h>
+#import "Masonry.h"
 static const NSInteger tag = 10086;
 
 @implementation UIView (TrackPoint)

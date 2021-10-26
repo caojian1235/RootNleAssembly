@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RootNleAssembly'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = '基本组件'
 
 # This description is used to generate tags and improve search results.
@@ -29,20 +29,20 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
-
+  
   s.subspec 'Macro' do |ma|
       ma.source_files = 'RootNleAssembly/Classes/Macro/**/*'
      
    end
+  
   s.subspec 'ZZJsonToModel' do |zz|
       zz.source_files = 'RootNleAssembly/Classes/ZZJsonToModel/**/*'
      
    end
+  
   s.subspec 'Alert' do |alert|
       alert.source_files = 'RootNleAssembly/Classes/Alert/**/*'
       alert.dependency 'RootNleAssembly/Category'
-      alert.dependency 'RootNleAssembly/Macro'
       alert.dependency 'RootNleAssembly/Macro'
       alert.dependency 'GKNavigationBar'
       alert.dependency 'MJRefresh'

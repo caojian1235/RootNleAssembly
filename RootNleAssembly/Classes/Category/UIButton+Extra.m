@@ -7,7 +7,7 @@
 //
 
 #import "UIButton+Extra.h"
-#import <YYKit/YYKit.h>
+#import "YYKit.h"
 #import <objc/runtime.h>
 
 @implementation UIButton (Extra)

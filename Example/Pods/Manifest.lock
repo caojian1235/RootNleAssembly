@@ -8,19 +8,19 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.7.2)
-  - RootNleAssembly (0.1.5):
+  - RootNleAssembly (0.1.6):
     - GKNavigationBar
     - LYEmptyView
     - Masonry
     - MBProgressHUD
     - MJRefresh
-    - RootNleAssembly/Alert (= 0.1.5)
-    - RootNleAssembly/Category (= 0.1.5)
-    - RootNleAssembly/Macro (= 0.1.5)
-    - RootNleAssembly/ZZJsonToModel (= 0.1.5)
+    - RootNleAssembly/Alert (= 0.1.6)
+    - RootNleAssembly/Category (= 0.1.6)
+    - RootNleAssembly/Macro (= 0.1.6)
+    - RootNleAssembly/ZZJsonToModel (= 0.1.6)
     - SDWebImage
     - YYKit
-  - RootNleAssembly/Alert (0.1.5):
+  - RootNleAssembly/Alert (0.1.6):
     - GKNavigationBar
     - LYEmptyView
     - Masonry
@@ -30,7 +30,7 @@ PODS:
     - RootNleAssembly/Macro
     - SDWebImage
     - YYKit
-  - RootNleAssembly/Category (0.1.5):
+  - RootNleAssembly/Category (0.1.6):
     - GKNavigationBar
     - LYEmptyView
     - Masonry
@@ -39,7 +39,7 @@ PODS:
     - RootNleAssembly/Macro
     - SDWebImage
     - YYKit
-  - RootNleAssembly/Macro (0.1.5):
+  - RootNleAssembly/Macro (0.1.6):
     - GKNavigationBar
     - LYEmptyView
     - Masonry
@@ -47,7 +47,7 @@ PODS:
     - MJRefresh
     - SDWebImage
     - YYKit
-  - RootNleAssembly/ZZJsonToModel (0.1.5):
+  - RootNleAssembly/ZZJsonToModel (0.1.6):
     - GKNavigationBar
     - LYEmptyView
     - Masonry
@@ -85,7 +85,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
-  RootNleAssembly: 2f71e5b5293abd1fd9b8e38c728e26cba6a7265d
+  RootNleAssembly: 1433f60e381f00948f014d215f8014a66e6511a5
   SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 

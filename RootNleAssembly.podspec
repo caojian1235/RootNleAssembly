@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RootNleAssembly'
-  s.version          = '0.1.5'
+  s.version          = '0.1.4'
   s.summary          = '基本组件'
 
 # This description is used to generate tags and improve search results.
@@ -35,20 +35,28 @@ TODO: Add long description of the pod here.
       ma.source_files = 'RootNleAssembly/Classes/Macro/**/*'
      
    end
-  
   s.subspec 'ZZJsonToModel' do |zz|
       zz.source_files = 'RootNleAssembly/Classes/ZZJsonToModel/**/*'
-      
+     
+   end
+  s.subspec 'Alert' do |alert|
+      alert.source_files = 'RootNleAssembly/Classes/Alert/**/*'
+      alert.dependency 'RootNleAssembly/Category'
+      alert.dependency 'RootNleAssembly/Macro'
+   end
+  s.subspec 'Category' do |ca|
+      ca.source_files = 'RootNleAssembly/Classes/Category/**/*'
+      ca.dependency 'RootNleAssembly/Macro'
    end
 #  s.source_files = 'RootNleAssembly/Classes/YSKDefineMacro.pch'
-s.prefix_header_contents = <<-EOS
-#ifdef __OBJC__
-
-#import "Macro/YSKDefineMacro.pch"
-
-
-#endif /* __OBJC__*/
-EOS
+#s.prefix_header_contents = <<-EOS
+##ifdef __OBJC__
+#
+##import "YSKDefineMacro.pch"
+#
+#
+##endif /* __OBJC__*/
+#EOS
  
   s.dependency 'GKNavigationBar'
   s.dependency 'MJRefresh'

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RootNleAssembly'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = '基本组件'
 
 # This description is used to generate tags and improve search results.
@@ -43,10 +43,25 @@ TODO: Add long description of the pod here.
       alert.source_files = 'RootNleAssembly/Classes/Alert/**/*'
       alert.dependency 'RootNleAssembly/Category'
       alert.dependency 'RootNleAssembly/Macro'
+      alert.dependency 'RootNleAssembly/Macro'
+      alert.dependency 'GKNavigationBar'
+      alert.dependency 'MJRefresh'
+      alert.dependency 'LYEmptyView'
+      alert.dependency 'Masonry'
+      alert.dependency 'SDWebImage'
+      alert.dependency 'MBProgressHUD'
+      alert.dependency 'YYKit'
    end
   s.subspec 'Category' do |ca|
       ca.source_files = 'RootNleAssembly/Classes/Category/**/*'
       ca.dependency 'RootNleAssembly/Macro'
+      ca.dependency 'GKNavigationBar'
+      ca.dependency 'MJRefresh'
+      ca.dependency 'LYEmptyView'
+      ca.dependency 'Masonry'
+      ca.dependency 'SDWebImage'
+      ca.dependency 'MBProgressHUD'
+      ca.dependency 'YYKit'
    end
 #  s.source_files = 'RootNleAssembly/Classes/YSKDefineMacro.pch'
 #s.prefix_header_contents = <<-EOS
@@ -58,13 +73,7 @@ TODO: Add long description of the pod here.
 ##endif /* __OBJC__*/
 #EOS
  
-  s.dependency 'GKNavigationBar'
-  s.dependency 'MJRefresh'
-  s.dependency 'LYEmptyView'
-  s.dependency 'Masonry'
-  s.dependency 'SDWebImage'
-  s.dependency 'MBProgressHUD'
-  s.dependency 'YYKit'
+
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

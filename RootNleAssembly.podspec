@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RootNleAssembly'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '基本组件'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'RootNleAssembly/Classes/**/*'
  
   s.subspec 'ZZJsonToModel' do |zzjsonToModel|
-     zzjsonToModel.source_files = 'BasicToolComponents/Classes/ZZJsonToModel/**/*'
+     zzjsonToModel.source_files = 'RootNleAssembly/Classes/ZZJsonToModel/**/*'
      
    end
   s.prefix_header_contents = <<-EOS

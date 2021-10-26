@@ -46,7 +46,7 @@
   "subspecs": [
     {
       "name": "ZZJsonToModel",
-      "source_files": "BasicToolComponents/Classes/ZZJsonToModel/**/*"
+      "source_files": "RootNleAssembly/Classes/ZZJsonToModel/**/*"
     }
   ]
 }

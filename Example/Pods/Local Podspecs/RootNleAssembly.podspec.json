@@ -1,6 +1,6 @@
 {
   "name": "RootNleAssembly",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "基本组件",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/caojian1235/RootNleAssembly",
@@ -13,11 +13,40 @@
   },
   "source": {
     "git": "https://github.com/caojian1235/RootNleAssembly.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "RootNleAssembly/Classes/**/*",
-  "prefix_header_contents": "#ifdef __OBJC__\n\n#import \"YSKDefineMacro.pch\"\n\n\n#endif /* __OBJC__*/"
+  "prefix_header_contents": "#ifdef __OBJC__\n\n#import \"YSKDefineMacro.pch\"\n\n\n#endif /* __OBJC__*/",
+  "dependencies": {
+    "GKNavigationBar": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "LYEmptyView": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "YYKit": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "ZZJsonToModel",
+      "source_files": "BasicToolComponents/Classes/ZZJsonToModel/**/*"
+    }
+  ]
 }

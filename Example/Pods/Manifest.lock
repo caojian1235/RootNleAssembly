@@ -1,15 +1,63 @@
 PODS:
-  - RootNleAssembly (0.1.0)
+  - GKNavigationBar (1.6.0):
+    - GKNavigationBar/GestureHandle (= 1.6.0)
+    - GKNavigationBar/NavigationBar (= 1.6.0)
+  - GKNavigationBar/GestureHandle (1.6.0)
+  - GKNavigationBar/NavigationBar (1.6.0)
+  - LYEmptyView (1.3.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.7.2)
+  - RootNleAssembly (0.1.1):
+    - GKNavigationBar
+    - LYEmptyView
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - RootNleAssembly/ZZJsonToModel (= 0.1.1)
+    - SDWebImage
+    - YYKit
+  - RootNleAssembly/ZZJsonToModel (0.1.1):
+    - GKNavigationBar
+    - LYEmptyView
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - YYKit
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - RootNleAssembly (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - GKNavigationBar
+    - LYEmptyView
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - YYKit
 
 EXTERNAL SOURCES:
   RootNleAssembly:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RootNleAssembly: e067894ecb74e977a6fc02c70acf4f14e05dce50
+  GKNavigationBar: 777b10cebaa1026d9aa392859c42e389895eb744
+  LYEmptyView: b6d418cfa38b78df0cf243f9a9c25ccbdc399922
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
+  RootNleAssembly: 4c88c38b67d14ecc90125e0e0e03a4d5e6531097
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
 PODFILE CHECKSUM: b9bcd4cf0f3f2933599c1566c27f581133a362c8
 

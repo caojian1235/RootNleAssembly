@@ -304,11 +304,23 @@
 				"${PODS_ROOT}/Target Support Files/Pods-RootNleAssembly_Example/Pods-RootNleAssembly_Example-resources.sh",
 				"${PODS_ROOT}/GKNavigationBar/GKNavigationBar/NavigationBar/GKNavigationBar.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/../../RootNleAssembly/Assets/mine_share_circle.png",
+				"${PODS_ROOT}/../../RootNleAssembly/Assets/mine_share_circle@2x.png",
+				"${PODS_ROOT}/../../RootNleAssembly/Assets/mine_share_circle@3x.png",
+				"${PODS_ROOT}/../../RootNleAssembly/Assets/mine_share_wechat.png",
+				"${PODS_ROOT}/../../RootNleAssembly/Assets/mine_share_wechat@2x.png",
+				"${PODS_ROOT}/../../RootNleAssembly/Assets/mine_share_wechat@3x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GKNavigationBar.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mine_share_circle.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mine_share_circle@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mine_share_circle@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mine_share_wechat.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mine_share_wechat@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mine_share_wechat@3x.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RootNleAssembly'
-  s.version          = '0.2.2'
+  s.version          = '0.2.3'
   s.summary          = '基本组件'
 
 # This description is used to generate tags and improve search results.
@@ -88,6 +88,7 @@ TODO: Add long description of the pod here.
   #share
   s.subspec 'ShareView' do |shareview|
       shareview.source_files = 'RootNleAssembly/Classes/ShareView/**/*'
+      shareview.dependency 'RootNleAssembly/Category'
       shareview.dependency 'RootNleAssembly/Macro'
       shareview.dependency 'Toast'
       shareview.dependency 'WechatOpenSDK'

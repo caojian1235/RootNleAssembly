@@ -8,18 +8,18 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.7.2)
-  - RootNleAssembly (0.1.9):
-    - RootNleAssembly/Alert (= 0.1.9)
-    - RootNleAssembly/BaseVC (= 0.1.9)
-    - RootNleAssembly/Category (= 0.1.9)
-    - RootNleAssembly/Loading (= 0.1.9)
-    - RootNleAssembly/Macro (= 0.1.9)
-    - RootNleAssembly/ZZJsonToModel (= 0.1.9)
-  - RootNleAssembly/Alert (0.1.9):
+  - RootNleAssembly (0.2.0):
+    - RootNleAssembly/Alert (= 0.2.0)
+    - RootNleAssembly/BaseVC (= 0.2.0)
+    - RootNleAssembly/Category (= 0.2.0)
+    - RootNleAssembly/Loading (= 0.2.0)
+    - RootNleAssembly/Macro (= 0.2.0)
+    - RootNleAssembly/ZZJsonToModel (= 0.2.0)
+  - RootNleAssembly/Alert (0.2.0):
     - Masonry
     - RootNleAssembly/Category
     - RootNleAssembly/Macro
-  - RootNleAssembly/BaseVC (0.1.9):
+  - RootNleAssembly/BaseVC (0.2.0):
     - GKNavigationBar
     - LYEmptyView
     - Masonry
@@ -28,18 +28,18 @@ PODS:
     - RootNleAssembly/Category
     - RootNleAssembly/Loading
     - RootNleAssembly/Macro
-  - RootNleAssembly/Category (0.1.9):
+  - RootNleAssembly/Category (0.2.0):
     - Masonry
     - MJRefresh
     - RootNleAssembly/Macro
     - YYKit
-  - RootNleAssembly/Loading (0.1.9):
+  - RootNleAssembly/Loading (0.2.0):
     - Masonry
     - MBProgressHUD
     - RootNleAssembly/Category
     - YYKit
-  - RootNleAssembly/Macro (0.1.9)
-  - RootNleAssembly/ZZJsonToModel (0.1.9)
+  - RootNleAssembly/Macro (0.2.0)
+  - RootNleAssembly/ZZJsonToModel (0.2.0)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -66,7 +66,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
-  RootNleAssembly: a9d75a63ea9effd5c038deb4a500806ac1a92550
+  RootNleAssembly: ba0e5671afb38d3babd84ee31d6066dbc1544c8a
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
 PODFILE CHECKSUM: b9bcd4cf0f3f2933599c1566c27f581133a362c8

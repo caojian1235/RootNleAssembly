@@ -8,18 +8,19 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.7.2)
-  - RootNleAssembly (0.2.0):
-    - RootNleAssembly/Alert (= 0.2.0)
-    - RootNleAssembly/BaseVC (= 0.2.0)
-    - RootNleAssembly/Category (= 0.2.0)
-    - RootNleAssembly/Loading (= 0.2.0)
-    - RootNleAssembly/Macro (= 0.2.0)
-    - RootNleAssembly/ZZJsonToModel (= 0.2.0)
-  - RootNleAssembly/Alert (0.2.0):
+  - RootNleAssembly (0.2.1):
+    - RootNleAssembly/Alert (= 0.2.1)
+    - RootNleAssembly/BaseVC (= 0.2.1)
+    - RootNleAssembly/Category (= 0.2.1)
+    - RootNleAssembly/Loading (= 0.2.1)
+    - RootNleAssembly/Macro (= 0.2.1)
+    - RootNleAssembly/ShareView (= 0.2.1)
+    - RootNleAssembly/ZZJsonToModel (= 0.2.1)
+  - RootNleAssembly/Alert (0.2.1):
     - Masonry
     - RootNleAssembly/Category
     - RootNleAssembly/Macro
-  - RootNleAssembly/BaseVC (0.2.0):
+  - RootNleAssembly/BaseVC (0.2.1):
     - GKNavigationBar
     - LYEmptyView
     - Masonry
@@ -28,18 +29,26 @@ PODS:
     - RootNleAssembly/Category
     - RootNleAssembly/Loading
     - RootNleAssembly/Macro
-  - RootNleAssembly/Category (0.2.0):
+  - RootNleAssembly/Category (0.2.1):
     - Masonry
     - MJRefresh
     - RootNleAssembly/Macro
     - YYKit
-  - RootNleAssembly/Loading (0.2.0):
+  - RootNleAssembly/Loading (0.2.1):
     - Masonry
     - MBProgressHUD
     - RootNleAssembly/Category
     - YYKit
-  - RootNleAssembly/Macro (0.2.0)
-  - RootNleAssembly/ZZJsonToModel (0.2.0)
+  - RootNleAssembly/Macro (0.2.1)
+  - RootNleAssembly/ShareView (0.2.1):
+    - Masonry
+    - RootNleAssembly/Macro
+    - Toast
+    - WechatOpenSDK
+    - YYKit
+  - RootNleAssembly/ZZJsonToModel (0.2.1)
+  - Toast (4.0.0)
+  - WechatOpenSDK (1.8.7.1)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -54,6 +63,8 @@ SPEC REPOS:
     - Masonry
     - MBProgressHUD
     - MJRefresh
+    - Toast
+    - WechatOpenSDK
     - YYKit
 
 EXTERNAL SOURCES:
@@ -66,9 +77,11 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
-  RootNleAssembly: ba0e5671afb38d3babd84ee31d6066dbc1544c8a
+  RootNleAssembly: ad6b030d83a2696b3f1a3fa6ae11034be7d4d52b
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: b9bcd4cf0f3f2933599c1566c27f581133a362c8
+PODFILE CHECKSUM: 01f3612df7d16e75d275086e17f60cd60fb7c55b
 
 COCOAPODS: 1.11.2

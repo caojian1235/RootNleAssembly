@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38DBA496F1740E9D7E61661D /* Pods_RootNleAssembly_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50A287CBE9C0A00D569CF19 /* Pods_RootNleAssembly_Tests.framework */; };
+		32E88E1075294376393F8C47 /* libPods-RootNleAssembly_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E221FB8ADF39CFD09A974E /* libPods-RootNleAssembly_Tests.a */; };
+		335580469CCC974679F082C7 /* libPods-RootNleAssembly_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9258665C0625FC002921A1D5 /* libPods-RootNleAssembly_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +24,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		DEF424F22CF436ECDA81FDE7 /* Pods_RootNleAssembly_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E90CE8CAE8E4473FD56B305 /* Pods_RootNleAssembly_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		014DEFE907F85E80566521C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2E90CE8CAE8E4473FD56B305 /* Pods_RootNleAssembly_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RootNleAssembly_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E221FB8ADF39CFD09A974E /* libPods-RootNleAssembly_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RootNleAssembly_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* RootNleAssembly_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RootNleAssembly_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,9 +61,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85B577A1A84FA2A11757015C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9258665C0625FC002921A1D5 /* libPods-RootNleAssembly_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RootNleAssembly_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B72D3F9E0A5AB2B7F56DA71D /* Pods-RootNleAssembly_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RootNleAssembly_Example.release.xcconfig"; path = "Target Support Files/Pods-RootNleAssembly_Example/Pods-RootNleAssembly_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CFDC5FF7E7EACD10DCFD9638 /* Pods-RootNleAssembly_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RootNleAssembly_Example.debug.xcconfig"; path = "Target Support Files/Pods-RootNleAssembly_Example/Pods-RootNleAssembly_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D50A287CBE9C0A00D569CF19 /* Pods_RootNleAssembly_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RootNleAssembly_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D968EF6E42D2882BF86AFA4A /* RootNleAssembly.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RootNleAssembly.podspec; path = ../RootNleAssembly.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DF3C131A403509A5F02A532E /* Pods-RootNleAssembly_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RootNleAssembly_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RootNleAssembly_Tests/Pods-RootNleAssembly_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E1FEC2EB25823CB525DD4D40 /* Pods-RootNleAssembly_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RootNleAssembly_Tests.release.xcconfig"; path = "Target Support Files/Pods-RootNleAssembly_Tests/Pods-RootNleAssembly_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				DEF424F22CF436ECDA81FDE7 /* Pods_RootNleAssembly_Example.framework in Frameworks */,
+				335580469CCC974679F082C7 /* libPods-RootNleAssembly_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				38DBA496F1740E9D7E61661D /* Pods_RootNleAssembly_Tests.framework in Frameworks */,
+				32E88E1075294376393F8C47 /* libPods-RootNleAssembly_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				2E90CE8CAE8E4473FD56B305 /* Pods_RootNleAssembly_Example.framework */,
-				D50A287CBE9C0A00D569CF19 /* Pods_RootNleAssembly_Tests.framework */,
+				9258665C0625FC002921A1D5 /* libPods-RootNleAssembly_Example.a */,
+				01E221FB8ADF39CFD09A974E /* libPods-RootNleAssembly_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				081D331630AB4AAE000DE515 /* [CP] Embed Pods Frameworks */,
+				6163129CF5F903A829B44F39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -295,34 +295,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		081D331630AB4AAE000DE515 /* [CP] Embed Pods Frameworks */ = {
+		6163129CF5F903A829B44F39 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RootNleAssembly_Example/Pods-RootNleAssembly_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GKNavigationBar/GKNavigationBar.framework",
-				"${BUILT_PRODUCTS_DIR}/LYEmptyView/LYEmptyView.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/RootNleAssembly/RootNleAssembly.framework",
-				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RootNleAssembly_Example/Pods-RootNleAssembly_Example-resources.sh",
+				"${PODS_ROOT}/GKNavigationBar/GKNavigationBar/NavigationBar/GKNavigationBar.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GKNavigationBar.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LYEmptyView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RootNleAssembly.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GKNavigationBar.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RootNleAssembly_Example/Pods-RootNleAssembly_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RootNleAssembly_Example/Pods-RootNleAssembly_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		69AD0F3573980181AF655D6D /* [CP] Check Pods Manifest.lock */ = {

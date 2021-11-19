@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RootNleAssembly'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = '基本组件'
 
 # This description is used to generate tags and improve search results.
@@ -84,6 +84,15 @@ TODO: Add long description of the pod here.
 #      ca.dependency 'SDWebImage'
 
       ca.dependency 'YYKit'
+   end
+  #share
+  s.subspec 'ShareView' do |shareview|
+      shareview.source_files = 'RootNleAssembly/Classes/ShareView/**/*'
+      shareview.dependency 'RootNleAssembly/Macro'
+      shareview.dependency 'Toast'
+      shareview.dependency 'WechatOpenSDK'
+      shareview.dependency 'Masonry'
+      shareview.dependency 'YYKit'
    end
 #  s.source_files = 'RootNleAssembly/Classes/YSKDefineMacro.pch'
 #s.prefix_header_contents = <<-EOS

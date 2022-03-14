@@ -7,7 +7,7 @@
 //
 
 #import "SYBAlertView.h"
-#import "YSKDefineMacro.pch"
+#import "YSKDefineMacro.h"
 #import "Masonry.h"
 @interface SYBAlertView ()
 

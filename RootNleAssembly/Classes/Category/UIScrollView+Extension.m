@@ -8,7 +8,7 @@
 
 #import "UIScrollView+Extension.h"
 #import <objc/runtime.h>
-#import "YSKDefineMacro.pch"
+#import "YSKDefineMacro.h"
 #import "Masonry.h"
 #import "MJRefresh.h"
 @interface DNEmptyView ()

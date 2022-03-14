@@ -10,7 +10,7 @@
 #import "LYEmptyViewHeader.h"
 #import "Masonry.h"
 #import "MJRefresh.h"
-#import "YSKDefineMacro.pch"
+#import "YSKDefineMacro.h"
 #import "ZSZHUD.h"
 #import "Category.h"
 @interface YKWebViewController ()<WKNavigationDelegate,UIGestureRecognizerDelegate,WKScriptMessageHandler,WKUIDelegate>

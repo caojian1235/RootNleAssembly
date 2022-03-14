@@ -7,7 +7,7 @@
 //
 
 #import "DNSignAlertView.h"
-#import "YSKDefineMacro.pch"
+#import "YSKDefineMacro.h"
 #import "Masonry.h"
 #import "Category.h"
 @interface DNSignAlertView ()<UITextViewDelegate>

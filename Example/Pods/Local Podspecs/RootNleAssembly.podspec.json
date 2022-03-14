@@ -1,6 +1,6 @@
 {
   "name": "RootNleAssembly",
-  "version": "0.2.9",
+  "version": "0.3.0",
   "summary": "基本组件",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/caojian1235/RootNleAssembly",
@@ -13,14 +13,11 @@
   },
   "source": {
     "git": "https://github.com/caojian1235/RootNleAssembly.git",
-    "tag": "0.2.9"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "resources": [
-    "RootNleAssembly/Assets/*"
-  ],
   "subspecs": [
     {
       "name": "BaseVC",

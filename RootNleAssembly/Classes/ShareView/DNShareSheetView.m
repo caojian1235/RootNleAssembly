@@ -7,7 +7,7 @@
 //
 
 #import "DNShareSheetView.h"
-#import "YSKDefineMacro.pch"
+#import "YSKDefineMacro.h"
 #import <Masonry.h>
 #import "UIButton+Extra.h"
 #import <Toast.h>

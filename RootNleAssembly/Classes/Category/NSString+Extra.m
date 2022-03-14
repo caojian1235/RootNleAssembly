@@ -7,7 +7,7 @@
 //
 
 #import "NSString+Extra.h"
-#import "YSKDefineMacro.pch"
+#import "YSKDefineMacro.h"
 #import <CoreLocation/CoreLocation.h>
 #import <CommonCrypto/CommonCrypto.h>
 #import <CommonCrypto/CommonDigest.h>

@@ -8,19 +8,19 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.7.3)
-  - RootNleAssembly (0.3.1):
-    - RootNleAssembly/Alert (= 0.3.1)
-    - RootNleAssembly/BaseVC (= 0.3.1)
-    - RootNleAssembly/Category (= 0.3.1)
-    - RootNleAssembly/Loading (= 0.3.1)
-    - RootNleAssembly/Macro (= 0.3.1)
-    - RootNleAssembly/ShareView (= 0.3.1)
-    - RootNleAssembly/ZZJsonToModel (= 0.3.1)
-  - RootNleAssembly/Alert (0.3.1):
+  - RootNleAssembly (0.3.2):
+    - RootNleAssembly/Alert (= 0.3.2)
+    - RootNleAssembly/BaseVC (= 0.3.2)
+    - RootNleAssembly/Category (= 0.3.2)
+    - RootNleAssembly/Loading (= 0.3.2)
+    - RootNleAssembly/Macro (= 0.3.2)
+    - RootNleAssembly/ShareView (= 0.3.2)
+    - RootNleAssembly/ZZJsonToModel (= 0.3.2)
+  - RootNleAssembly/Alert (0.3.2):
     - Masonry
     - RootNleAssembly/Category
     - RootNleAssembly/Macro
-  - RootNleAssembly/BaseVC (0.3.1):
+  - RootNleAssembly/BaseVC (0.3.2):
     - GKNavigationBar
     - LYEmptyView
     - Masonry
@@ -29,25 +29,25 @@ PODS:
     - RootNleAssembly/Category
     - RootNleAssembly/Loading
     - RootNleAssembly/Macro
-  - RootNleAssembly/Category (0.3.1):
+  - RootNleAssembly/Category (0.3.2):
     - Masonry
     - MJRefresh
     - RootNleAssembly/Macro
     - YYKit
-  - RootNleAssembly/Loading (0.3.1):
+  - RootNleAssembly/Loading (0.3.2):
     - Masonry
     - MBProgressHUD
     - RootNleAssembly/Category
     - YYKit
-  - RootNleAssembly/Macro (0.3.1)
-  - RootNleAssembly/ShareView (0.3.1):
+  - RootNleAssembly/Macro (0.3.2)
+  - RootNleAssembly/ShareView (0.3.2):
     - Masonry
     - RootNleAssembly/Category
     - RootNleAssembly/Macro
     - Toast
     - WechatOpenSDK
     - YYKit
-  - RootNleAssembly/ZZJsonToModel (0.3.1)
+  - RootNleAssembly/ZZJsonToModel (0.3.2)
   - Toast (4.0.0)
   - WechatOpenSDK (1.8.7.1)
   - YYKit (1.0.9):
@@ -78,7 +78,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: ec9c53ff4abf3a9237b4283862f1bd51c2ee3fdb
-  RootNleAssembly: 79b348b62b628cbccb0ebe136968b0a8f01dd592
+  RootNleAssembly: 189cdf46685302e73e5456102d948defdc49917b
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7

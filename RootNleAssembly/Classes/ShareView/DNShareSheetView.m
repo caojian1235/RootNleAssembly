@@ -13,6 +13,7 @@
 #import <Toast.h>
 #import <WXApi.h>
 #import <YYKit.h>
+
 @interface DNShareSheetView ()
 
 @property (nonatomic, strong) UIView   *contentView;
@@ -133,30 +134,30 @@
         make.top.mas_equalTo(self.contentView.mas_top);
     }];
     
-//    [self.operationView addSubview:self.friendBtn];
-//    [self.friendBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-//
-//        make.top.leading.bottom.inset(AUTO_MARGIN(10));
-//        make.height.mas_offset(SCREEN_W * 0.2);
-//    }];
+    [self.operationView addSubview:self.friendBtn];
+    [self.friendBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+
+        make.top.leading.bottom.inset(AUTO_MARGIN(10));
+        make.height.mas_offset(SCREEN_W * 0.2);
+    }];
 //
 //
 //        self.saveImageBtn.hidden = YES;
-//        [self.operationView addSubview:self.circleBtn];
-//        [self.circleBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-//
-////            make.top.bottom.inset(AUTO_MARGIN(10));
-////            make.leading.mas_equalTo(self.friendBtn.mas_trailing).mas_offset(AUTO_MARGIN(10));
-//            make.top.width.mas_equalTo(self.friendBtn);
-//            make.trailing.mas_equalTo(self.operationView.mas_trailing).inset(AUTO_MARGIN(10));
+        [self.operationView addSubview:self.circleBtn];
+        [self.circleBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+
+//            make.top.bottom.inset(AUTO_MARGIN(10));
 //            make.leading.mas_equalTo(self.friendBtn.mas_trailing).mas_offset(AUTO_MARGIN(10));
-//            make.bottom.mas_equalTo(-10);
-//
-//    //        make.top.width.mas_equalTo(self.friendBtn);
-//    //        make.trailing.mas_equalTo(self.operationView.mas_trailing).inset(AUTO_MARGIN(10));
-//    //        make.leading.mas_equalTo(self.saveImageBtn.mas_trailing).mas_offset(AUTO_MARGIN(10));
-//    //        make.bottom.mas_equalTo(-10);
-//        }];
+            make.top.width.mas_equalTo(self.friendBtn);
+            make.trailing.mas_equalTo(self.operationView.mas_trailing).inset(AUTO_MARGIN(10));
+            make.leading.mas_equalTo(self.friendBtn.mas_trailing).mas_offset(AUTO_MARGIN(10));
+            make.bottom.mas_equalTo(-10);
+
+    //        make.top.width.mas_equalTo(self.friendBtn);
+    //        make.trailing.mas_equalTo(self.operationView.mas_trailing).inset(AUTO_MARGIN(10));
+    //        make.leading.mas_equalTo(self.saveImageBtn.mas_trailing).mas_offset(AUTO_MARGIN(10));
+    //        make.bottom.mas_equalTo(-10);
+        }];
         
 //        [self.operationView addSubview:self.saveImageBtn];
 //        [self.saveImageBtn mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -244,11 +245,11 @@
 - (void)layoutSubviews{
     [super layoutSubviews];
     
-//    [self.friendBtn layoutIfNeeded];
-//    [self.friendBtn dn_layoutButtonEdgeInset:DNEdgeInsetStyleTop space:7];
-//
-//    [self.circleBtn layoutIfNeeded];
-//    [self.circleBtn dn_layoutButtonEdgeInset:DNEdgeInsetStyleTop space:7];
+    [self.friendBtn layoutIfNeeded];
+    [self.friendBtn dn_layoutButtonEdgeInset:DNEdgeInsetStyleTop space:7];
+
+    [self.circleBtn layoutIfNeeded];
+    [self.circleBtn dn_layoutButtonEdgeInset:DNEdgeInsetStyleTop space:7];
 //    [self.saveImageBtn layoutIfNeeded];
 //    [self.saveImageBtn dn_layoutButtonEdgeInset:DNEdgeInsetStyleTop space:7];
 }
@@ -416,14 +417,14 @@
 //        message.description = self.shareDes;
 ////        [message setThumbImage:[IMAGE(@"mine_aboutUs_logo") dn_compressImage]];
 //        message.mediaObject = webpageObject;
-//        
+//
 //        SendMessageToWXReq *req = [[SendMessageToWXReq alloc] init];
 //        req.bText   = NO;
 //        req.message = message;
 //        // 0 好友列表----1 朋友圈-----2 收藏
 //        req.scene   = (sender.tag == 10087);
 //        [WXApi sendReq:req completion:^(BOOL success) {
-//            
+//
 //            [self hideShareView];
 //        }];
         

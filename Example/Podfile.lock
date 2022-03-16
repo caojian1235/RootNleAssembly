@@ -1,4 +1,7 @@
 PODS:
+  - AMapFoundation (1.6.9)
+  - AMapLocation (2.8.0):
+    - AMapFoundation (~> 1.6.9)
   - GKNavigationBar (1.6.1):
     - GKNavigationBar/GestureHandle (= 1.6.1)
     - GKNavigationBar/NavigationBar (= 1.6.1)
@@ -8,46 +11,65 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.7.3)
-  - RootNleAssembly (0.3.2):
-    - RootNleAssembly/Alert (= 0.3.2)
-    - RootNleAssembly/BaseVC (= 0.3.2)
-    - RootNleAssembly/Category (= 0.3.2)
-    - RootNleAssembly/Loading (= 0.3.2)
-    - RootNleAssembly/Macro (= 0.3.2)
-    - RootNleAssembly/ShareView (= 0.3.2)
-    - RootNleAssembly/ZZJsonToModel (= 0.3.2)
-  - RootNleAssembly/Alert (0.3.2):
-    - Masonry
-    - RootNleAssembly/Category
-    - RootNleAssembly/Macro
-  - RootNleAssembly/BaseVC (0.3.2):
+  - ReactiveObjC (3.1.1)
+  - RootNleAssembly (0.3.3):
+    - RootNleAssembly/BaseVC (= 0.3.3)
+    - RootNleAssembly/Common (= 0.3.3)
+    - RootNleAssembly/Macro (= 0.3.3)
+    - RootNleAssembly/ShareView (= 0.3.3)
+    - RootNleAssembly/ZZJsonToModel (= 0.3.3)
+  - RootNleAssembly/BaseVC (0.3.3):
     - GKNavigationBar
     - LYEmptyView
     - Masonry
     - MJRefresh
-    - RootNleAssembly/Alert
-    - RootNleAssembly/Category
-    - RootNleAssembly/Loading
+    - ReactiveObjC
+    - RootNleAssembly/Common
     - RootNleAssembly/Macro
-  - RootNleAssembly/Category (0.3.2):
+    - Toast
+  - RootNleAssembly/Common (0.3.3):
+    - RootNleAssembly/Common/Alert (= 0.3.3)
+    - RootNleAssembly/Common/Category (= 0.3.3)
+    - RootNleAssembly/Common/ClearCache (= 0.3.3)
+    - RootNleAssembly/Common/JumpMap (= 0.3.3)
+    - RootNleAssembly/Common/Loading (= 0.3.3)
+    - RootNleAssembly/Common/MenuView (= 0.3.3)
+  - RootNleAssembly/Common/Alert (0.3.3):
+    - Masonry
+    - RootNleAssembly/Common/Category
+    - RootNleAssembly/Macro
+  - RootNleAssembly/Common/Category (0.3.3):
     - Masonry
     - MJRefresh
     - RootNleAssembly/Macro
     - YYKit
-  - RootNleAssembly/Loading (0.3.2):
+  - RootNleAssembly/Common/ClearCache (0.3.3)
+  - RootNleAssembly/Common/JumpMap (0.3.3):
+    - AMapLocation
+  - RootNleAssembly/Common/Loading (0.3.3):
     - Masonry
     - MBProgressHUD
-    - RootNleAssembly/Category
+    - RootNleAssembly/Common/Category
+    - RootNleAssembly/Macro
+    - SDWebImage
     - YYKit
-  - RootNleAssembly/Macro (0.3.2)
-  - RootNleAssembly/ShareView (0.3.2):
+  - RootNleAssembly/Common/MenuView (0.3.3):
     - Masonry
-    - RootNleAssembly/Category
+    - RootNleAssembly/Macro
+    - SDWebImage
+    - YYKit
+  - RootNleAssembly/Macro (0.3.3)
+  - RootNleAssembly/ShareView (0.3.3):
+    - Masonry
+    - RootNleAssembly/Common
     - RootNleAssembly/Macro
     - Toast
     - WechatOpenSDK
     - YYKit
-  - RootNleAssembly/ZZJsonToModel (0.3.2)
+  - RootNleAssembly/ZZJsonToModel (0.3.3)
+  - SDWebImage (5.12.4):
+    - SDWebImage/Core (= 5.12.4)
+  - SDWebImage/Core (5.12.4)
   - Toast (4.0.0)
   - WechatOpenSDK (1.8.7.1)
   - YYKit (1.0.9):
@@ -59,11 +81,15 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - AMapFoundation
+    - AMapLocation
     - GKNavigationBar
     - LYEmptyView
     - Masonry
     - MBProgressHUD
     - MJRefresh
+    - ReactiveObjC
+    - SDWebImage
     - Toast
     - WechatOpenSDK
     - YYKit
@@ -73,12 +99,16 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AMapFoundation: 8d8ecbb0b2e9ce5487995360d26c885d94642bfd
+  AMapLocation: 5ef44a1117be7dc541cb7a7d43d03c5ee91e4387
   GKNavigationBar: 4b63ee7d9337d3c1b5057fa324730a083c828fda
   LYEmptyView: b6d418cfa38b78df0cf243f9a9c25ccbdc399922
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: ec9c53ff4abf3a9237b4283862f1bd51c2ee3fdb
-  RootNleAssembly: 189cdf46685302e73e5456102d948defdc49917b
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  RootNleAssembly: 7f58699375161cb0a037aca3bd58eb06d759e2d7
+  SDWebImage: 631cf572cc93dfdfe54162e556410a61f1141928
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7

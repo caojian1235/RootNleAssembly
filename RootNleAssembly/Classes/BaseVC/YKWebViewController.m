@@ -232,12 +232,10 @@
      message.name: 触发js的方法名
     */
     
-   
     // 判断代理方法是否存在
     if ([self.interactiveDelegate respondsToSelector:@selector(interactiveMethod:)]) {
         [self.interactiveDelegate interactiveMethod:message];
     }
-    
     
 }
 // WKWebView Delegate
